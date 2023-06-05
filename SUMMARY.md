@@ -1,4 +1,3 @@
 # Table of contents
 
-* [Apprendre le C](README.md)
-  * [Test](https://google.fr)
+* [📝 Apprendre le C — Les fondamentaux du langage C](README.md)
