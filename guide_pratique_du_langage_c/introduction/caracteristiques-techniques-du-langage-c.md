@@ -1,3 +1,9 @@
+---
+description: >-
+  Plongez dans les spécificités techniques du langage C. Explorez les aspects
+  qui font du C un langage de programmation puissant et flexible.
+---
+
 # Caractéristiques techniques du langage C
 
 Le langage C, avec sa polyvalence éprouvée, a trouvé sa place dans divers domaines d'application comme la programmation système, le calcul numérique, l'infographie et la programmation embarquée, pour n'en citer que quelques-uns. Ses caractéristiques techniques distinctifs incluent :

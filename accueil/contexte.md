@@ -1,4 +1,8 @@
 ---
+description: >-
+  Découvrez les motivations de l'auteur, inspirées par la philosophie de
+  Socrate, pour partager ses connaissances sur le langage de programmation C et
+  sa vision d'un apprentissage accessible à tous.
 layout: landing
 ---
 

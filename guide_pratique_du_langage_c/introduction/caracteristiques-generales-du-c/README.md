@@ -1,2 +1,0 @@
-# Caractéristiques générales du C
-
