@@ -4,7 +4,7 @@ description: >-
   les différents paradigmes de programmation adoptés.
 ---
 
-# Caractéristiques générales du C
+# 🖥 Caractéristiques générales du C
 
 ## **Paradigmes de programmation adoptés**
 
@@ -264,4 +264,4 @@ L'utilisation d'instructions `goto` rend le code moins lisible, moins prévisibl
 
 En résumé, les paradigmes de programmation impératif, procédural et structuré sont des approches complémentaires permettant d'organiser et de structurer le code. Le paradigme impératif est axé sur les instructions, le paradigme procédural se concentre sur les fonctions et le paradigme structuré vise la mise en place de structures de données simples et de contrôles de flux efficaces.
 
-<figure><img src="../../.gitbook/assets/paradigmes_de_programmation.png" alt="Les paradigmes de programmation"><figcaption><p>Les paradigmes de programmation</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/paradigmes_de_programmation.png" alt="Les paradigmes de programmation"><figcaption><p>Les paradigmes de programmation</p></figcaption></figure>

@@ -1,28 +1,39 @@
-# Organisation d’un programme en C
+---
+description: >-
+  Comprenez la structuration d'un programme en C. Découvrez les composants clés
+  comme le rôle du préprocesseur, le prototypage des fonctions, et la manière
+  dont ils s'imbriquent pour créer un programme.
+---
+
+# 👨💻 Organisation d’un programme en C
 
 Comme mentionné précédemment, le langage C repose sur un paradigme de programmation procédurale, qui se caractérise par l'organisation des programmes en fonctions. Les fonctions en C regroupent un ensemble d'instructions spécifiquement conçues pour accomplir une tâche particulière. Les instructions en C peuvent être de deux types : simples et composées.
 
-* **Instructions simples** : Une instruction simple représente une action unique dans l'exécution d'un programme. Par exemple, pour afficher une chaîne de caractères à l'écran, on utilise l'instruction simple `puts("Bonjour");`. Chaque instruction simple se termine par un point-virgule.
+## **Instructions simples**
+
+Une instruction simple représente une action unique dans l'exécution d'un programme. Par exemple, pour afficher une chaîne de caractères à l'écran, on utilise l'instruction simple `puts("Bonjour");`. Chaque instruction simple se termine par un point-virgule.
 
 Voici quelques exemples d'instructions simples en langage C :
 
-* **Affichage d'un message à l'écran** :
+### **Affichage d'un message à l'écran**
 
 ```c
 printf("Bonjour, Monde!");
 ```
 
-* **Assignation d'une valeur à une variable** :
+### **Assignation d'une valeur à une variable**
 
 ```c
 int age = 25;
 ```
 
-* **Instructions composées** : Les instructions composées, quant à elles, regroupent plusieurs instructions simples ou d'autres instructions composées, entourées par des accolades.
+## **Instructions composées**&#x20;
+
+Les instructions composées, quant à elles, regroupent plusieurs instructions simples ou d'autres instructions composées, entourées par des accolades.
 
 Voici quelques exemples d'instructions composées en langage C :
 
-* **Affichage de plusieurs chaînes de caractères à l'écran** :
+### **Affichage de plusieurs chaînes de caractères à l'écran**
 
 ```c
 {
@@ -31,7 +42,7 @@ puts("Bonsoir");
 }
 ```
 
-* **Structure conditionnelle if/else** :
+### **Structure conditionnelle if/else**
 
 ```c
 int age = 18;
@@ -43,7 +54,7 @@ if (age >= 18) {
 }
 ```
 
-Voici un exemple de programme en C, illustrant l'utilisation d'instructions composées :
+## **Exemple de programme en C, illustrant l'utilisation d'instructions composées et d'autres concepts fondamentaux sous-jacents**
 
 ```c
 /* Programme pour 
@@ -51,6 +62,10 @@ calculer la somme de
 deux nombres */
 
 #include <stdio.h>
+
+// Prototypage de la fonction
+int calculerSomme(int a, int b);
+void afficherResultat(int a, int b, int somme);
 
 int main(void)
 {
@@ -60,26 +75,42 @@ int main(void)
     int somme;
     
     // Calcul de la somme
-    somme = a + b;
+    somme = calculerSomme(a, b);
     
     // Affichage du résultat à l'écran
-    printf("La somme de %d et %d est : %d\n", a, b, somme);
+    afficherResultat(a, b, somme);
     
     return 0; // Indique que le programme s'est terminé normalement
 }
+
+// Définition de la fonction calculerSomme
+int calculerSomme(int a, int b) {
+    return a + b;
+}
+
+// Définition de la fonction afficherResultat
+void afficherResultat(int a, int b, int somme) {
+    printf("La somme de %d et %d est : %d\n", a, b, somme);
+}
 ```
 
-* **Commentaires** : Les commentaires sont des annotations dans le code qui ne sont pas exécutées par le compilateur. Ils servent à expliquer le fonctionnement du code, facilitant ainsi sa compréhension pour les autres développeurs.
+### **Commentaires**&#x20;
+
+Les commentaires sont des annotations dans le code qui ne sont pas exécutées par le compilateur. Ils servent à expliquer le fonctionnement du code, facilitant ainsi sa compréhension pour les autres développeurs.
 
 En C, on distingue deux types de commentaires :
 
-**Commentaires sur une ligne** : Ils commencent par deux barres obliques `//` et permettent de commenter une seule ligne de code.
+#### **Commentaires sur une ligne**&#x20;
+
+Ils commencent par deux barres obliques `//` et permettent de commenter une seule ligne de code.
 
 ```c
 int a = 5; // Affectation de la valeur 5 à la variable a
 ```
 
-**Commentaires sur plusieurs lignes** : Ils commencent par `/*` et se terminent par `*/`. Ils permettent de commenter plusieurs lignes de code.
+#### **Commentaires sur plusieurs lignes**&#x20;
+
+Ils commencent par `/*` et se terminent par `*/`. Ils permettent de commenter plusieurs lignes de code.
 
 ```c
 /* 
@@ -88,12 +119,19 @@ sur plusieurs lignes
 */
 ```
 
-* **Directives du préprocesseur** : La ligne `#include <stdio.h>` est une directive du préprocesseur qui inclut le fichier d'en-tête `stdio.h` dans le code source. Ce fichier contient les déclarations des fonctions d'entrée/sortie standard, y compris la fonction `printf()`.
+### **Directives du préprocesseur**
+
+La ligne `#include <stdio.h>` est une directive du préprocesseur qui inclut le fichier d'en-tête `stdio.h` dans le code source. Ce fichier contient les déclarations des fonctions d'entrée/sortie standard, y compris la fonction `printf()`.
 
 Les directives du préprocesseur sont des instructions spéciales destinées à effectuer un traitement préliminaire du code source avant la phase de compilation. Elles sont différenciées des autres instructions C par le caractère dièse (#) qui les précède.
 
-* **Inclusion d'un fichier d'en-tête de la bibliothèque standard** : Comme mentionné précédemment, le fichier d'en-tête `stdio.h` est inclus pour permettre l'utilisation de la fonction `printf()`. Cette dernière est nécessaire pour afficher des informations à l'écran.
-* **Fonction principale** : La fonction `main` est la fonction principale et le point d'entrée de tout programme en C. Elle sert de coordinateur pour l'appel aux autres fonctions et gère le flux d'exécution du programme. Lorsque vous exécutez un programme, le système cherche cette fonction `main` et commence à exécuter le code qu'elle contient.
+### **Inclusion d'un fichier d'en-tête de la bibliothèque standard**&#x20;
+
+Comme mentionné précédemment, le fichier d'en-tête `stdio.h` est inclus pour permettre l'utilisation de la fonction `printf()`. Cette dernière est nécessaire pour afficher des informations à l'écran.
+
+### **Fonction principale**&#x20;
+
+La fonction `main` est la fonction principale et le point d'entrée de tout programme en C. Elle sert de coordinateur pour l'appel aux autres fonctions et gère le flux d'exécution du programme. Lorsque vous exécutez un programme, le système cherche cette fonction `main` et commence à exécuter le code qu'elle contient.
 
 La fonction `main` peut prendre peut se présenter sous l’une ou\
 l’autre des formes suivantes :
@@ -158,9 +196,17 @@ Dans ce cas, `argv[0]` est le nom du programme lui-même, et les arguments suiva
 
 Quelle que soit la forme de `main`, elle renvoie une valeur de type `int`. Cette valeur est le "code de sortie" du programme. Par convention, un code de sortie de `0` signifie que le programme s'est terminé avec succès, tandis que toute autre valeur indique une sorte d'erreur. Ce code de sortie peut être récupéré par d'autres programmes ou scripts qui ont exécuté votre programme, leur permettant ainsi de vérifier s'il s'est exécuté correctement ou non.
 
-* **Affichage à l’écran** : La fonction `printf` (pour "print formatted") est utilisée pour afficher une séquence de caractères à la sortie standard, généralement l'écran. Il est à noter que `printf` n'est pas intrinsèquement partie du langage C, mais est une fonction fournie par la bibliothèque standard (déclarée dans le fichier d'en-tête `stdio.h`). La bibliothèque standard est un ensemble de fonctions qui doivent être disponibles sur tous les systèmes conformes à la norme ISO C. Dans l'exemple donné, la fonction `printf` n'a qu'un seul argument, mais elle peut en recevoir beaucoup plus.
-* **Chaîne de caractères** : Une chaîne de caractères est une séquence ordonnée de caractères.
-* **Formats de spécification** : Les formats de spécification sont utilisés dans les fonctions de la bibliothèque standard du langage C, telles que `printf`, pour spécifier le type et le format des données à afficher. Ils permettent de contrôler la façon dont les données sont formatées lors de leur affichage.
+### **Affichage à l’écran**
+
+La fonction `printf` (pour "print formatted") est utilisée pour afficher une séquence de caractères à la sortie standard, généralement l'écran. Il est à noter que `printf` n'est pas intrinsèquement partie du langage C, mais est une fonction fournie par la bibliothèque standard (déclarée dans le fichier d'en-tête `stdio.h`). La bibliothèque standard est un ensemble de fonctions qui doivent être disponibles sur tous les systèmes conformes à la norme ISO C. Dans l'exemple donné, la fonction `printf` n'a qu'un seul argument, mais elle peut en recevoir beaucoup plus.
+
+### **Chaîne de caractères**
+
+Une chaîne de caractères est une séquence ordonnée de caractères.
+
+### **Formats de spécification**
+
+Les formats de spécification sont utilisés dans les fonctions de la bibliothèque standard du langage C, telles que `printf`, pour spécifier le type et le format des données à afficher. Ils permettent de contrôler la façon dont les données sont formatées lors de leur affichage.
 
 Lorsque nous utilisons `printf` avec des formats de spécification, nous utilisons le caractère `%` suivi d'un caractère spécifique pour représenter le type de données à afficher. Par exemple, `%d` est utilisé pour afficher des entiers décimaux (entiers signés).
 
@@ -176,7 +222,10 @@ Il existe d'autres formats de spécification disponibles pour différents types 
 
 Il existe d'autres formats de spécification pour différents types de données, tels que `%f` pour les nombres flottants, `%c` pour les caractères, `%s` pour les chaînes de caractères, etc.
 
-* **Caractères spéciaux** : Le caractère  est un symbole spécial qui représente un saut de ligne. En plus du caractère de saut de ligne (), il existe plusieurs autres caractères spéciaux, aussi appelés "caractères d'échappement", dans le langage de programmation C. Ces caractères commencent par une barre oblique inversée (`\`) et sont suivis d'une ou plusieurs autres lettres ou chiffres. Voici quelques exemples :
+### **Caractères spéciaux**
+
+Le caractère  est un symbole spécial qui représente un saut de ligne. En plus du caractère de saut de ligne (), il existe plusieurs autres caractères spéciaux, aussi appelés "caractères d'échappement", dans le langage de programmation C. Ces caractères commencent par une barre oblique inversée (`\`) et sont suivis d'une ou plusieurs autres lettres ou chiffres. Voici quelques exemples :
+
 * &#x20;: Tabulation horizontale. Il déplace le curseur à la prochaine tabulation sur la ligne actuelle.
 * `\b` : Retour arrière. Il déplace le curseur d'une position vers l'arrière sur la ligne actuelle.
 * &#x20;: Retour chariot. Il déplace le curseur au début de la ligne actuelle sans passer à la ligne suivante.
@@ -188,7 +237,10 @@ Il existe d'autres formats de spécification pour différents types de données,
 * `\"` : Guillemet. Il permet d'insérer un guillemet (`"`) dans une chaîne.
 * `\?` : Point d'interrogation. Il permet d'insérer un point d'interrogation (`?`) dans une chaîne.
 * `\0` : Caractère nul. Il représente la fin d'une chaîne de caractères en C.
-* **Retour à la fonction appelante (et gestion de la pile d'appels)** : Lors de l'exécution d'un programme en C, le mécanisme du retour à la fonction appelante est géré par une structure appelée pile d'appels, qui fonctionne suivant le principe Last-In-First-Out (LIFO).
+
+### **Retour à la fonction appelante (et gestion de la pile d'appels)**
+
+Lors de l'exécution d'un programme en C, le mécanisme du retour à la fonction appelante est géré par une structure appelée pile d'appels, qui fonctionne suivant le principe Last-In-First-Out (LIFO).
 
 Chaque fois qu'une fonction est appelée, un cadre d'exécution (ou "frame") est créé. Ce frame contient plusieurs informations importantes, dont :
 
@@ -203,19 +255,23 @@ Voici un exemple simple d'un programme en C qui effectue une addition :
 ```c
 #include <stdio.h>
 
-int addition(int a, int b) {
-    int somme = a + b;
-    return somme;
-}
+// Prototypage de la fonction addition
+int addition(int a, int b);
 
 int main(void) {
     int x = 5;
     int y = 3;
-    int resultat = addition(x, y);
+    int resultat = addition(x, y);  // Appel de la fonction
 
     printf("La somme de %d et %d est %d\n", x, y, resultat);
 
     return 0;
+}
+
+// Définition de la fonction addition
+int addition(int a, int b) {
+    int somme = a + b;
+    return somme;
 }
 ```
 
@@ -258,3 +314,61 @@ fi
 Dans cet exemple, le script shell exécute `mon_programme`, puis vérifie le code de sortie. S'il est égal à 0, il affiche un message de succès, sinon il affiche un message d'erreur.
 
 C'est une bonne pratique d'utiliser des codes de sortie significatifs dans vos programmes pour indiquer l'état de sortie de votre programme. Il est également utile de documenter ce que signifient les différents codes de sortie pour les utilisateurs de votre programme.
+
+### **Prototypage et déclaration**
+
+Le C est un langage de programmation statiquement typé, ce qui signifie que le type de chaque variable doit être déclaré avant son utilisation. De même, chaque fonction doit être déclarée ou prototypée avant son appel. Cette déclaration ou ce prototypage de fonction comprend le nom de la fonction, les types de ses paramètres et le type de sa valeur de retour.
+
+Le prototypage de la fonction sert à informer le compilateur sur la façon dont une fonction est utilisée : son nombre de paramètres, le type de ces paramètres et le type de valeur qu'elle renvoie. Cela permet au compilateur de vérifier la validité des appels de fonction lors de la compilation et de signaler toute incohérence, contribuant ainsi à la prévention des erreurs.
+
+Voici un exemple de prototypage d'une fonction :
+
+```c
+#include <stdio.h>
+
+// Prototypes des fonctions
+int addition(int a, int b);
+int soustraction(int a, int b);
+int multiplication(int a, int b);
+
+int main(void) {
+    int x = 10;
+    int y = 5;
+    
+    // Appels des fonctions
+    int somme = addition(x, y);
+    int difference = soustraction(x, y);
+    int produit = multiplication(x, y);
+    
+    printf("La somme de %d et %d est %d\n", x, y, somme);
+    printf("La différence de %d et %d est %d\n", x, y, difference);
+    printf("Le produit de %d et %d est %d\n", x, y, produit);
+    
+    return 0;
+}
+
+// Définition des fonctions
+int addition(int a, int b) {
+    return a + b;
+}
+
+int soustraction(int a, int b) {
+    return a - b;
+}
+
+int multiplication(int a, int b) {
+    return a * b;
+}
+```
+
+Dans cet exemple, nous avons les prototypes des fonctions `addition`, `soustraction` et `multiplication` déclarés en haut du code. Ces prototypes indiquent au compilateur la signature des fonctions, c'est-à-dire le nombre et les types des paramètres, ainsi que le type de la valeur de retour.
+
+La définition des fonctions se trouve après la fonction `main`. Les fonctions sont implémentées avec leurs opérations correspondantes.
+
+Il convient de noter que le prototypage des fonctions n'est pas obligatoire en C si la définition de la fonction est placée avant son appel. Cependant, le prototypage des fonctions offre plusieurs avantages :
+
+* Il permet de séparer la déclaration et l'implémentation des fonctions, rendant le code plus modulaire et plus facile à maintenir.
+* Il facilite la compréhension du code en fournissant une description claire des fonctions et de leurs signatures.
+* Il permet au compilateur de vérifier les appels de fonction et de détecter les erreurs de type lors de la compilation.
+
+En général, il est recommandé de prototyper les fonctions dans des fichiers d'en-tête séparés (.h) et de les inclure dans les fichiers sources (.c) pour une meilleure organisation du code.

@@ -1,4 +1,11 @@
-# Phases de compilation
+---
+description: >-
+  Découvrez les phases de compilation du langage C. Explorez la différence entre
+  les langages compilés et interprétés, le rôle du préprocesseur, et les étapes
+  clés de compilation.
+---
+
+# ⚙ Phases de compilation
 
 Il est essentiel de distinguer les langages compilés des langages interprétés. Le langage C est un exemple parfait de langage compilé, ce qui signifie qu'avant d'être exécuté par la machine, le code source C doit être traduit en langage machine, un ensemble d'instructions directement compréhensible par le processeur. En comparaison, les langages interprétés, comme Python ou JavaScript, sont exécutés ligne par ligne par un interpréteur, sans nécessiter de compilation préalable. Voici un tableau illustrant quelques exemples de ces deux types de langages :
 

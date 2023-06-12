@@ -5,7 +5,7 @@ description: >-
   informatique et la création de logiciels d'infographie.
 ---
 
-# Applications du langage C
+# 🎯 Applications du langage C
 
 Le langage C est largement reconnu comme une pierre angulaire de la programmation bas niveau, excellant dans le développement d'applications qui interagissent directement avec le matériel ou le système d'exploitation de manière privilégiée. Les applications typiques du langage C sont multiples et diverses, parmi lesquelles :
 

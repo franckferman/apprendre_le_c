@@ -1,4 +1,11 @@
-# Mise en oeuvre du compilateur
+---
+description: >-
+  Découvrez les étapes de mise en œuvre du compilateur dans le contexte du
+  langage C. Cette page fournit une explication détaillée du processus de
+  compilation, en utilisant le compilateur GCC.
+---
+
+# ⏳ Mise en oeuvre du compilateur
 
 En général, l'ensemble du processus de compilation d'un programme est réalisé en une seule étape, de manière transparente pour l'utilisateur. Cette opération peut être initiée via une simple commande, telle que `gcc fichier.c`, si nous prenons l'exemple du compilateur GCC (GNU Compiler Collection) très couramment utilisé.
 
