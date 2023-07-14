@@ -1,8 +1,8 @@
 ---
 description: >-
   Explorez la genèse et l'évolution du langage de programmation C, depuis sa
-  création dans les laboratoires Bell jusqu'à sa popularité persistante dans le
-  monde de la programmation système.
+  création dans les laboratoires Bell jusqu'à sa popularité dans le monde de
+  l'informatique.
 ---
 
 # 🌍 Genèse et évolution

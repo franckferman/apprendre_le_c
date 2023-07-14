@@ -10,7 +10,7 @@ layout: landing
 
 > _"Le savoir est la seule matière qui s'accroît quand on la partage."_
 >
-> Socrate.
+> _Socrate_.
 
 Ce précepte illustre parfaitement la quintessence de l'acquisition de savoir - une valeur qui, loin de diminuer, s'amplifie au gré de son partage.
 

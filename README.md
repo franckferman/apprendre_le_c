@@ -16,13 +16,11 @@ description: >-
 
 
 {% hint style="warning" %}
-## \[_**TLP**:**CLAIR**_] (_DIFFUSION PUBLIQUE_)
+## \[**TLP**:**CLAIR**] (_DIFFUSION PUBLIQUE_)
 
-Le présent document est la propriété exclusive de Franck FERMAN et est classé TLP:BLANC, autorisant ainsi une diffusion étendue et publique, sous réserve du respect des règles de droit d'auteur standard.
+Le présent document est la propriété exclusive de M. [**Franck FERMAN**](https://github.com/franckferman) et est classé **TLP**:**CLAIR**, autorisant ainsi une diffusion étendue et publique, sous réserve du respect des règles de droit d'auteur standard.
 
 Les informations contenues dans ce document sont déclarées non sensibles et peuvent être librement partagées ou diffusées publiquement sans nécessité de mesures de protection spécifiques.
-
-#### _Note **:** Ce document est classé TLP:CLAIR, signifiant qu'il est destiné à une diffusion étendue et publique, sous réserve du respect des règles de droit d'auteur standard._
 {% endhint %}
 
 
@@ -38,7 +36,7 @@ Pour plus d'informations sur la licence GNU Affero General Public License v3.0, 
 
 
 
-"Apprendre le C" is a project initiated by Mr. Franck FERMAN with the aim of introducing the fundamentals of the C language. It provides clear explanations and practical examples to help learners master the basics of C programming.&#x20;
+"_Apprendre le C_" is a project initiated by Mr. [**Franck FERMAN**](https://github.com/franckferman) with the aim of introducing the fundamentals of the C language. It provides clear explanations and practical examples to help learners master the basics of C programming.&#x20;
 
 _Copyright (C) 2023 Franck FERMAN_
 
@@ -53,13 +51,13 @@ You should have received a copy of the GNU Affero General Public License along w
 
 
 
-_Ce document a été créé le 05/04/2023 à Saint-Quentin-en-Yvelines (78180) par_ [_Franck FERMAN_](https://github.com/franckferman)_. Il est considéré comme un brouillon et peut être sujet à des modifications et révisions ultérieures._
+_Ce document a été créé le 05/04/2023 à Saint-Quentin-en-Yvelines (78180) par M._ [_Franck FERMAN_](https://github.com/franckferman)_. Il est considéré comme un brouillon et peut être sujet à des modifications et révisions ultérieures._
 
 
 
 Les commentaires sur le présent document sont à adresser à :
 
-> M. Franck FERMAN&#x20;
+> _M. Franck FERMAN_
 >
 > Adresse électronique : fferman@protonmail.ch
 

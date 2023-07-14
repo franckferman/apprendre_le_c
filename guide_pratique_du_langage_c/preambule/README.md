@@ -1,8 +1,7 @@
 ---
 description: >-
-  Explorez le préambule pour une introduction sur la genèse et l'évolution du
-  langage de programmation C, jetant les bases pour une compréhension
-  approfondie de son impact et de sa pertinence continue.
+  Parcourez le préambule pour dévoiler la genèse et l'évolution du langage C,
+  mettant en lumière son ascension dans le paysage de l'informatique.
 ---
 
 # Préambule
