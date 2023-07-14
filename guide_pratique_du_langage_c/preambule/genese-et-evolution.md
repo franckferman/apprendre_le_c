@@ -1,8 +1,8 @@
 ---
 description: >-
-  Explorez la genèse et l'évolution du langage de programmation C, depuis sa
-  création dans les laboratoires Bell jusqu'à sa popularité dans le monde de
-  l'informatique.
+  Découvrez l'histoire passionnante du langage de programmation C, de sa
+  conception dans les laboratoires Bell à son influence majeure sur le paysage
+  informatique mondial.
 ---
 
 # 🌍 Genèse et évolution
@@ -11,7 +11,7 @@ Créé en 1972 par Dennis Ritchie et Ken Thompson au sein des mythiques laborato
 
 
 
-<figure><img src="../../.gitbook/assets/Ken_Thompson_and_Dennis_Ritchie-1973.jpg" alt="Ken Thompson and Dennis Ritchie (1973)"><figcaption><p>Ken Thompson and Dennis Ritchie (1973)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ken_Thompson_and_Dennis_Ritchie-1973.jpg" alt="Ken Thompson et Dennis Ritchie (1973)"><figcaption><p>Ken Thompson et Dennis Ritchie (1973)</p></figcaption></figure>
 
 
 

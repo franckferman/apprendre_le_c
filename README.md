@@ -1,4 +1,4 @@
-# Apprendre le C
+# 💻 Apprendre le C
 
 <figure><img src=".gitbook/assets/banner-apprendre_le_c.png" alt="Apprendre le C — Les fondamentaux du langage C"><figcaption><p>Apprendre le C — Les fondamentaux du langage C</p></figcaption></figure>
 
