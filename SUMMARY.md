@@ -2,8 +2,8 @@
 
 ## 🏠 Accueil
 
-* [Apprendre le C](README.md)
-* [Contexte](accueil/contexte.md)
+* [💻 Apprendre le C](README.md)
+* [📑 Contexte](accueil/contexte.md)
 
 ## 📖 Guide pratique du langage C <a href="#guide_pratique_du_langage_c" id="guide_pratique_du_langage_c"></a>
 
