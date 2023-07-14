@@ -1,10 +1,3 @@
----
-description: >-
-  Acquérez une maîtrise solide des fondamentaux du langage C avec ce référentiel
-  complet. Par une approche analytique rigoureuse, explorez des explications
-  claires et des exemples pratiques.
----
-
 # Apprendre le C
 
 <figure><img src=".gitbook/assets/banner-apprendre_le_c.png" alt="Apprendre le C — Les fondamentaux du langage C"><figcaption><p>Apprendre le C — Les fondamentaux du langage C</p></figcaption></figure>
