@@ -7,7 +7,7 @@ description: >-
 
 # 🌍 Genèse et évolution
 
-Créé en 1972 par Dennis Ritchie et Ken Thompson au sein des mythiques laboratoires Bell, le langage de programmation C a été conçu dans le cadre du développement d'Unix. Il a été initialement utilisé pour programmer le système d'exploitation Unix, et il est toujours fortement sollicité dans le domaine de la programmation système. La majeure partie des noyaux de systèmes d'exploitation dominants tels que Windows et Linux sont largement rédigés en C, témoignant ainsi de sa pertinence persistante.
+Créé en 1972 au sein des prestigieux laboratoires Bell, le langage de programmation C est l'œuvre de Dennis Ritchie et Ken Thompson. Initialement dédié au développement du système d'exploitation Unix, son utilisation reste aujourd'hui prééminente dans le domaine de la programmation système. La plupart des noyaux des systèmes d'exploitation dominants, comme Windows et Linux, sont principalement conçus en C, attestant ainsi de sa pertinence durable.
 
 
 
@@ -15,7 +15,7 @@ Créé en 1972 par Dennis Ritchie et Ken Thompson au sein des mythiques laborato
 
 
 
-Avant l'essor du langage C, les systèmes étaient principalement codés en langage assembleur, un processus complexe et laborieux. Le langage C, plus accessible, a permis aux développeurs de concevoir des logiciels de manière plus efficiente et rapide. De ce fait, le langage C a progressivement gagné en popularité et est aujourd'hui omniprésent dans une multitude de systèmes et d'applications.
+Avant l'essor du langage C, les systèmes étaient principalement codés en langage assembleur, un processus à la fois complexe et laborieux. Le langage C, de par sa simplicité relative, a permis aux développeurs de concevoir des logiciels de manière plus efficiente et véloce. Il en découle que le langage C a progressivement conquis ses lettres de noblesse, aujourd'hui omniprésent, il s'est imposé comme une composante incontournable d'innombrables systèmes et applications.
 
 Le langage B, développé par Ken Thompson et fortement inspiré du BCPL, est le prédécesseur direct du C. Dennis Ritchie a par la suite élaboré une version suffisamment évoluée du langage B, en y intégrant des types de données, pour la distinguer comme un nouveau langage, baptisé C.
 
